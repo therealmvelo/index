@@ -17,6 +17,5 @@ body{
 
 .card:hover img {
     border-left: 3px solid red;
-    transition: border-left 0.3s ease-in; 
     box-sizing: border-box;   
 }
