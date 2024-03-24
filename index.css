@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    margin: 0;
+    background-image: url(imgs/mvelo1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.card {
+    box-shadow: inset black 5px 5px 15px;
+    transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    box-shadow: inset black 2px 2px 5px; 
+}
+
+.card:hover img {
+    border-left: 3px solid red;
+    transition: border-left 0.3s ease-in; 
+    box-sizing: border-box;   
+}
